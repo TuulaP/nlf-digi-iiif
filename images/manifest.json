@@ -1,0 +1,67 @@
+{
+  "id" : "https://TuulaP.github.io/nlf-digi-iiif/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in TuulaP/nlf-digi-iiif project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2661,
+    "id" : "https://TuulaP.github.io/nlf-digi-iiif/images/10778_1458-8862_1888-07-31_page-1/canvas/",
+    "label" : {
+      "none" : [ "10778_1458-8862_1888-07-31_page-1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://TuulaP.github.io/nlf-digi-iiif/images/10778_1458-8862_1888-07-31_page-1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://TuulaP.github.io/nlf-digi-iiif/images/10778_1458-8862_1888-07-31_page-1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 84,
+              "height" : 115
+            }, {
+              "width" : 167,
+              "height" : 229
+            }, {
+              "width" : 333,
+              "height" : 458
+            }, {
+              "width" : 666,
+              "height" : 915
+            }, {
+              "width" : 1331,
+              "height" : 1829
+            }, {
+              "width" : 2661,
+              "height" : 3657
+            } ],
+            "profile" : "level0",
+            "width" : 2661,
+            "id" : "https://TuulaP.github.io/nlf-digi-iiif/images/10778_1458-8862_1888-07-31_page-1",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 3657
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2661,
+          "id" : "https://TuulaP.github.io/nlf-digi-iiif/images/10778_1458-8862_1888-07-31_page-1/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 3657
+        },
+        "target" : "https://TuulaP.github.io/nlf-digi-iiif/images/10778_1458-8862_1888-07-31_page-1/canvas/"
+      } ]
+    } ],
+    "height" : 3657
+  } ]
+}
