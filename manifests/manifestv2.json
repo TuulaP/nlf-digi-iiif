@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://TuulaP.github.io/nlf-digi-iiif/manifests/manifestv2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Kyläkirjaston kuvalehti31.7.18881458-8862",
+  "metadata" : [ {
+    "label" : "ISSN",
+    "value" : "1458-8862"
+  }, {
+    "label" : "Publishing Date",
+    "value" : "31.7.1888"
+  }, {
+    "label" : "Language",
+    "value" : "fi"
+  } ],
+  "description" : "Summary here",
+  "sequences" : [ {
+    "@id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/sequence0",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/322541c8-686c-4c38-a4b2-95049801d0b0",
+      "@type" : "sc:Canvas",
+      "height" : 3657,
+      "width" : 2661,
+      "label" : "Page 1",
+      "images" : [ {
+        "@id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/annotation/d18bd1ae-ed29-4566-9f6d-689a53ef3d0d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/322541c8-686c-4c38-a4b2-95049801d0b0",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 3657,
+          "width" : 2661,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31",
+            "height" : 3657,
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ],
+              "width" : 256,
+              "height" : 256
+            } ],
+            "width" : 2661,
+            "id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/62621dab-9b12-488a-b696-355573ff8813",
+      "@type" : "sc:Canvas",
+      "height" : 3657,
+      "width" : 2661,
+      "label" : "Page 2",
+      "images" : [ {
+        "@id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/annotation/569b7cc0-d544-4254-914b-4a55bcf6edcd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/62621dab-9b12-488a-b696-355573ff8813",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31-page-2/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 3657,
+          "width" : 2661,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31-page-2",
+            "height" : 3657,
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ],
+              "width" : 256,
+              "height" : 256
+            } ],
+            "width" : 2661,
+            "id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31-page-2"
+          }
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
