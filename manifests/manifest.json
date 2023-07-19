@@ -1,0 +1,113 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://TuulaP.github.io/nlf-digi-iiif/manifests/manifest.json",
+  "type" : "Manifest",
+  "behavior" : [ "paged" ],
+  "label" : {
+    "en" : [ "Kyläkirjaston kuvalehti", "31.7.1888", "1458-8862" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "ISSN" ]
+    },
+    "value" : {
+      "en" : [ "1458-8862", "" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Publishing Date" ]
+    },
+    "value" : {
+      "en" : [ "31.7.1888" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Language" ]
+    },
+    "value" : {
+      "en" : [ "fi" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "Summary here" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/322541c8-686c-4c38-a4b2-95049801d0b0",
+    "type" : "Canvas",
+    "height" : 3657,
+    "width" : 2661,
+    "label" : {
+      "en" : [ "Page 1" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/322541c8-686c-4c38-a4b2-95049801d0b0/annotation-page/d9a40e98-f105-46cf-9266-e647767db71d",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/annotation/d18bd1ae-ed29-4566-9f6d-689a53ef3d0d",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/322541c8-686c-4c38-a4b2-95049801d0b0",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3657,
+          "width" : 2661,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31",
+            "height" : 3657,
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ],
+              "width" : 256,
+              "height" : 256
+            } ],
+            "width" : 2661,
+            "id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/62621dab-9b12-488a-b696-355573ff8813",
+    "type" : "Canvas",
+    "height" : 3657,
+    "width" : 2661,
+    "label" : {
+      "en" : [ "Page 2" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/62621dab-9b12-488a-b696-355573ff8813/annotation-page/53e29e5f-276f-40bd-bdd3-2f54f65cc041",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/annotation/569b7cc0-d544-4254-914b-4a55bcf6edcd",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/62621dab-9b12-488a-b696-355573ff8813",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31-page-2/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3657,
+          "width" : 2661,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31-page-2",
+            "height" : 3657,
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ],
+              "width" : 256,
+              "height" : 256
+            } ],
+            "width" : 2661,
+            "id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31-page-2"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
