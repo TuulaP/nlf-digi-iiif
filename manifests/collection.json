@@ -11,5 +11,9 @@
       "en" : [ "Kyläkirjaston kuvalehti", "31.7.1888", "1458-8862" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://TuulaP.github.io/nlf-digi-iiif/manifests/manifestv2.json",
+    "label" : "Kyläkirjaston kuvalehti31.7.18881458-8862"
   } ]
 }
