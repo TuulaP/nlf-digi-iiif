@@ -3,6 +3,11 @@
   "@id" : "https://TuulaP.github.io/nlf-digi-iiif/manifests/manifestv2.json",
   "@type" : "sc:Manifest",
   "label" : "Kyläkirjaston kuvalehti31.7.18881458-8862",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/3314750/7116ba43841993facfc9428889940b8d/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "ISSN",
     "value" : "1458-8862"
@@ -13,7 +18,7 @@
     "label" : "Language",
     "value" : "fi"
   } ],
-  "description" : "Summary here",
+  "description" : "Kyläkirjaston kuvalehti 31.7.1888 for IIIF annotation and search test",
   "sequences" : [ {
     "@id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/sequence0",
     "@type" : "sc:Sequence",
@@ -55,6 +60,11 @@
             "id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31"
           }
         }
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://tuulap.github.io/nlf-digi-iiif/annotations/manifestp1_wanno_fullpagetext.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "July training annotations II"
       } ]
     }, {
       "@id" : "https://example.org/44aaa167-38ae-4ea8-b65e-74117a7a1507/canvas/62621dab-9b12-488a-b696-355573ff8813",
