@@ -1,0 +1,167 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "imagecaption",
+      "@type" : "oa:Tag",
+      "chars" : "imagecaption"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "1888",
+      "@type" : "oa:Tag",
+      "chars" : "1888"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ritariston ja Aateliss&auml;&auml;dyn istuntosali 1888 vuoden valtiop&auml;ivill&auml;",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Ritariston ja Aateliss&auml;&auml;dyn istuntosali 1888 vuoden valtiop&auml;ivill&auml;</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Mit&auml; tied&auml;mme maamme ja kansamme muinaisuudesta. monelle mieleen, ett&auml; t&auml;ss&auml; lehdess&auml; esit&auml;mme lyhyesti vanhojen l&ouml;yt&ouml;jemme merkityksen.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "Mit&auml; tied&auml;mme maamme ja kansamme muinaisuudesta. monelle mieleen, ett&auml; t&auml;ss&auml; lehdess&auml; esit&auml;mme lyhyesti vanhojen l&ouml;yt&ouml;jemme merkityksen."
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3314750",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-07-20T06:49:47",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1689835787090",
+    "dcterms:modified" : "2023-07-20T06:49:47",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=170,1211,2225,1556"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M169.50259,1210.68394h1112.62694v0h1112.62694v777.87565v777.87565h-1112.62694h-1112.62694v-777.87565z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_6b9e02f5-5565-4511-aa1a-1604e0053bd3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/canvas"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "header",
+      "@type" : "oa:Tag",
+      "chars" : "header"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Header image",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Header image</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3314750",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-07-20T06:50:34",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1689835834614",
+    "dcterms:modified" : "2023-07-20T06:50:34",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=51,86,2505,885"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M50.66705,86.23643h1252.51602v0h1252.51602v442.53953v442.53953h-1252.51602h-1252.51602v-442.53953z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e27dd49f-444e-4442-918d-e84a8f50f3df\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/canvas"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "ocrtext",
+      "@type" : "oa:Tag",
+      "chars" : "ocrtext"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "full text",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "Mit&auml; tied&auml;mme maamme ja kansamme muinaisuudesta. monelle mieleen, ett&auml; t&auml;ss&auml; lehdess&auml; esit&auml;mme lyhyesti vanhojen l&ouml;yt&ouml;jemme merkityksen. uhrata sanomattomia aikoja tutustuaksensa luonnon salaisuuksiin, joiden tuntemisen kautta hän yhä enemmän ja enemmän on päässyt luonnon herraksi. Tämä hänen herruutensa eli karttuva sivistyksensä on hedelmänä lukemattomista vaivaloisista keksinnöistä, joiden tärkeyttä aikoinansa meidän on vaikea käsittää. Kun nyt lähdemme luomaan itsellemme kuvan aikaisimmasta ihmiselämästä maassamme niitten löytöjen, nojalla, joita tähän saakka on kerätty ja tutkittu, niin tulee meidän muistaa, että se, mikä läpi vuosituhansien on säilynyt, valaisee ainoastaan muutamia puolia kaukaisen ajan elämästä. Sillä melkein kaikki, mikä sil"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3314750",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-07-20T06:50:34",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1689835834614",
+    "dcterms:modified" : "2023-07-20T06:50:34",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1,1,2505,3000"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M50.66705,86.23643h1252.51602v0h1252.51602v442.53953v442.53953h-1252.51602h-1252.51602v-442.53953z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e27dd49f-444e-4442-918d-e84a8f50f3df\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/canvas"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "anfangi",
+      "@type" : "oa:Tag",
+      "chars" : "anfangi"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "randomtag",
+      "@type" : "oa:Tag",
+      "chars" : "randomtag"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "anfang",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>anfang</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3314750",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-07-20T06:51:08",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1689835868032",
+    "dcterms:modified" : "2023-07-20T06:51:08",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=5,2812,217,217"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M36.5336,2843.40522c20.05745,-18.23893 48.35174,-31.82085 76.78314,-31.80462v0v0c28.4314,0.01623 53.19992,12.72189 76.78314,31.80462c23.58322,19.08273 32.74972,48.16113 31.80462,76.78314c-0.9451,28.62202 -12.0018,56.78765 -31.80462,76.78314c-19.80281,19.99549 -48.35174,31.82085 -76.78314,31.80462c-28.4314,-0.01623 -56.74528,-11.87403 -76.78314,-31.80462c-20.03787,-19.93059 -31.79972,-47.93395 -31.80462,-76.78314c-0.0049,-28.84919 11.74717,-58.54421 31.80462,-76.78314z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_b54945a0-619e-4d2b-9aba-41b80aeba690\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://iiif.archivelab.org/iiif/10778-1458-8862-1888-07-31/canvas"
+    } ]
+  } ],
+  "@id" : "https://TuulaP.github.io/nlf-digi-iiif/annotations/manifestp1_wanno_fullpagetext.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
